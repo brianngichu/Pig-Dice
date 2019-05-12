@@ -27,3 +27,8 @@ header > img{
     text-align: right;
     margin-right: 100px;
 }
+.landing{
+    background-color: aliceblue;
+    width: auto;
+    position: relative;
+}
