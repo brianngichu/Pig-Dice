@@ -23,3 +23,7 @@ header > img{
 .rules > li{
     font-family: 'Signika', sans-serif;
 }
+.button{
+    text-align: right;
+    margin-right: 100px;
+}
