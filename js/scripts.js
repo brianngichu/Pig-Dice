@@ -69,5 +69,11 @@ $(document).ready(function() {
         $("#score2").empty();
         $("#roll-2").empty();
     });
+    $("button#player1-roll").click(function(event){
+        player1.roll = throwdice();
+        $("#roll-1").text(player1.roll);
+        player1.rollone();
+        $("#total1").text(player1.rollscore);
+    });
   
 });
