@@ -32,3 +32,9 @@ header > img{
     width: auto;
     position: relative;
 }
+.gaming{
+    display: none;
+    width: auto;
+    background-color: aliceblue;
+    height: 100%;
+}
