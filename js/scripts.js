@@ -11,3 +11,11 @@ function Player(turn) {
     this.turn = turn;
     this.playerName;
 }
+Player.prototype.rollone = function() {
+    if (this.roll === 1) {
+    this.rollscore = 0;
+    alert("Turn over " + this.playerName + ", you rolled a 1! Try your luck next time!")
+    } else {
+    this.rollscore += this.roll;
+    }
+}
