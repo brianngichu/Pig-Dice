@@ -35,3 +35,7 @@ Player.prototype.newGame = function () {
     this.totalscore = 0;
     this.playerName ="";
 }
+var clearValues = function(){
+    $(".player1Name").val("");
+    $(".player2Name").val("");
+}
