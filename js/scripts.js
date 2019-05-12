@@ -56,5 +56,18 @@ $(document).ready(function() {
         player2.playerName=player2Name;
     
     });
+    $("button#new-game").click(function(event){
+        $(".landing").slideToggle();
+        $(".player-console").slideToggle();
+        clearValues();
+        player1.newGame();
+        player2.newGame();
+        $("#total1").empty();
+        $("#score1").empty();
+        $("#roll-1").empty();
+        $("#total2").empty();
+        $("#score2").empty();
+        $("#roll-2").empty();
+    });
   
-})
+});
