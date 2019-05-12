@@ -39,3 +39,6 @@ var clearValues = function(){
     $(".player1Name").val("");
     $(".player2Name").val("");
 }
+$(document).ready(function() {
+    
+})
