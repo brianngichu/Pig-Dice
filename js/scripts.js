@@ -19,3 +19,8 @@ Player.prototype.rollone = function() {
     this.rollscore += this.roll;
     }
 }
+Player.prototype.hold = function () {
+    this.totalscore += this.rollscore;
+    this.rollscore = 0;
+    alert(this.playerName + " your turn is over");
+}
