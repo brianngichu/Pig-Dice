@@ -10,3 +10,16 @@ header > img{
     font-family: 'Gugi', cursive;
     margin-top: -20px;
 }
+.rules{
+    text-align: center;
+    border-top: 1px solid grey;
+}
+.rules > h1{
+    border-bottom: 1px solid grey;
+}
+.rules > ul{
+    list-style-type: none;
+}
+.rules > li{
+    font-family: 'Signika', sans-serif;
+}
