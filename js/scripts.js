@@ -24,3 +24,8 @@ Player.prototype.hold = function () {
     this.rollscore = 0;
     alert(this.playerName + " your turn is over");
 }
+Player.prototype.winner = function () {
+    if (this.totalscore >= 100) {
+      alert("Congratulations " + this.playerName + " You won the game!");
+    }
+}
