@@ -29,3 +29,9 @@ Player.prototype.winner = function () {
       alert("Congratulations " + this.playerName + " You won the game!");
     }
 }
+Player.prototype.newGame = function () {
+    this.roll = 0;
+    this.rollscore = 0;
+    this.totalscore = 0;
+    this.playerName ="";
+}
