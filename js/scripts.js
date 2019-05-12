@@ -88,5 +88,11 @@ $(document).ready(function() {
         $("#roll-1").empty();
         player1.winner();
     });
-  
+    $("button#player2-hold").click(function(event){
+        player2.hold();
+        $("#score2").text(player2.totalscore);
+        $("#total2").empty();
+        $("#roll-2").empty();
+        player2.winner();
+    });
 });
