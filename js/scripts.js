@@ -75,5 +75,11 @@ $(document).ready(function() {
         player1.rollone();
         $("#total1").text(player1.rollscore);
     });
+    $("button#player2-roll").click(function(event){
+        player2.roll = throwdice();
+        $("#roll-2").text(player2.roll);
+        player2.rollone();
+        $("#total2").text(player2.rollscore);
+    });
   
 });
